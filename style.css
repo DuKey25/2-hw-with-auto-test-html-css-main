@@ -89,7 +89,7 @@ select {
 }
 
 .books-list {
-  margin-left: 25px;
+  margin: 0px 20px;
   /* Стили для нумерованного списка во второй секции */
 }
 
