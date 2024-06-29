@@ -48,22 +48,24 @@ header span {
 }
 
 .main-image {
-  width: 715px;
-  height: 508px;
+  max-width: 715px;
   /* Стили для изображения в первой секции */
 }
 
 .about-section {
   background: #ffffff;
   padding: 100px 0px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19.4px;
   /* Стили для второй секции */
 }
 
 select {
+  background: url(./assets/images/ep-arrow-down.svg) no-repeat right 10px top
+    50%;
+  appearance: none;
   width: 150px;
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 19.4px;
   border: 1px solid #3030304d;
   border-radius: 5px;
   padding: 9px 12px;
@@ -72,31 +74,56 @@ select {
 }
 
 .section-title {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 29.05px;
+  margin-bottom: 25px;
   /* Стили для заголовков во второй секции */
 }
 
 .frameworks-list {
+   list-style-image: url(./assets/images/solar-map-arrow-up-bold.svg);
+   margin-left: 25px;
+   /* ??? */
   /* Стили для маркированного списка во второй секции */
 }
 
 .books-list {
+  margin-left: 25px;
   /* Стили для нумерованного списка во второй секции */
 }
 
 .label {
-  /* Стили для подписей чекбоксов */
+   /* Стили для подписей чекбоксов */
 }
 
 .text-field {
-  /* Стили для односточного поля ввода текста */
+  width: 318px;
+height: 36px;
+border-radius: 5px;
+border: 1px solid #3030304D;
+padding-left: 12px;
+/* ??? */
+/* Стили для односточного поля ввода текста */
 }
 
 .btn {
+  width: 125px;
+height: 36px;
+border-radius: 5px;
+background: #2965F1;
+color: #FFFFFF;
+font-size: 14px;
+font-weight: 700;
+line-height: 16.94px;
+border: none;
   /* Стили для кнопки */
 }
 
 .line {
-  /* Стили для линии */
+  border: 1px solid #3030304D;
+  margin: 60px 0px;
+/* Стили для линии */
 }
 
 table {
