@@ -81,9 +81,8 @@ select {
 
 .frameworks-list {
    list-style-image: url(./assets/images/solar-map-arrow-up-bold.svg);
-  padding-left: 25px;
-  vertical-align:;
-  /* ??? */
+  padding: 0px 20px;
+  /* центровка маркера ??? */
   /* Стили для маркированного списка во второй секции */
 }
 
@@ -99,14 +98,21 @@ select {
 }
 
 .text-field {
+  font-family: inherit;
+  font-size: 16px;
   width: 330px;
   height: 36px;
   border-radius: 5px;
   border: 1px solid #3030304d;
   padding-left: 12px;
-  /* ??? */
+  /* прозраность placeholder??? */
   /* Стили для односточного поля ввода текста */
 }
+
+input::placeholder{
+  color: rgba(48, 48, 48, 0.2);
+}
+/*Прозрачность placeholder СВОЕ */
 
 .btn {
   width: 125px;
@@ -150,5 +156,6 @@ footer {
 .footer-link {
   font-size: 14px;
   color: #2965f1;
+  text-decoration-line: none;
   /* Стили для футера */
 }
