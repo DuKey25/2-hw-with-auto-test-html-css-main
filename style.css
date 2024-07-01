@@ -7,6 +7,8 @@
 
 body {
   font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
   color: #303030;
 }
 
@@ -42,7 +44,6 @@ header span {
 
 .main-text {
   font-size: 18px;
-  font-weight: 400;
   line-height: 21.8px;
   /* Стили для текста в первой секции */
 }
@@ -55,15 +56,12 @@ header span {
 .about-section {
   background: #ffffff;
   padding: 100px 0px;
-  font-size: 16px;
-  font-weight: 400;
   line-height: 19.4px;
   /* Стили для второй секции */
 }
 
 select {
-  background: url(./assets/images/ep-arrow-down.svg) no-repeat right 10px top
-    50%;
+  background: url(./assets/images/ep-arrow-down.svg) no-repeat right 10px top 50%;
   appearance: none;
   width: 150px;
   border: 1px solid #3030304d;
@@ -83,10 +81,11 @@ select {
 
 .frameworks-list {
    list-style-image: url(./assets/images/solar-map-arrow-up-bold.svg);
-   margin-left: 25px;
-   /* ??? */
+  margin-left: 25px;
+  /* ??? */
   /* Стили для маркированного списка во второй секции */
 }
+
 
 .books-list {
   margin: 0px 20px;
@@ -94,36 +93,36 @@ select {
 }
 
 .label {
-   /* Стили для подписей чекбоксов */
+  /* Стили для подписей чекбоксов */
 }
 
 .text-field {
-  width: 318px;
-height: 36px;
-border-radius: 5px;
-border: 1px solid #3030304D;
-padding-left: 12px;
-/* ??? */
-/* Стили для односточного поля ввода текста */
+  width: 330px;
+  height: 36px;
+  border-radius: 5px;
+  border: 1px solid #3030304d;
+  padding-left: 12px;
+  /* ??? */
+  /* Стили для односточного поля ввода текста */
 }
 
 .btn {
   width: 125px;
-height: 36px;
-border-radius: 5px;
-background: #2965F1;
-color: #FFFFFF;
-font-size: 14px;
-font-weight: 700;
-line-height: 16.94px;
-border: none;
+  height: 36px;
+  border-radius: 5px;
+  background: #2965f1;
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 16.94px;
+  border: none;
   /* Стили для кнопки */
 }
 
 .line {
-  border: 1px solid #3030304D;
+  border: 1px solid #3030304d;
   margin: 60px 0px;
-/* Стили для линии */
+  /* Стили для линии */
 }
 
 table {
