@@ -80,20 +80,20 @@ select {
   /* Стили для заголовков во второй секции */
 }
 
-/* .frameworks-list { */
-  /* list-style-image: url(./assets/images/solar-map-arrow-up-bold.svg);
-  padding: 0px 25px;  */
-  ul {
+.frameworks-list {
+  list-style-image: url(./assets/images/solar-map-arrow-up-bold.svg);
+  padding: 0px 25px; 
+  /* ul {
     list-style-type: none;
   }
   ul li {
     background-image: url(./assets/images/solar-map-arrow-up-bold.svg);
     background-repeat: no-repeat;
     padding: 0px 20px;
-  }
+  } */
   /* центровка маркера, не видно маркера при 20рх??? */
   /* Стили для маркированного списка во второй секции */
-/* } */
+}
 
 .books-list {
   padding: 0px 20px;
